@@ -1,0 +1,67 @@
+body {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  font-size: 12px; }
+
+.header {
+  width: 100%;
+  height: 8rem;
+  text-align: center;
+  line-height: 8rem;
+  font-size: 2.4rem;
+  background: orangered;
+  color: #ffffff; }
+
+.section {
+  width: 100%; }
+  .section .banner {
+    width: 100%;
+    height: 26rem; }
+    .section .banner img {
+      width: 100%; }
+  .section .context {
+    width: 100%; }
+    .section .context .server h3 {
+      height: 8.5rem;
+      line-height: 8.5rem;
+      margin-left: 1rem;
+      font-size: 2rem; }
+    .section .context .server dl {
+      flex: 1;
+      width: 24.7%;
+      height: 19rem;
+      float: left;
+      border: 0.1rem solid gray; }
+      .section .context .server dl dt {
+        text-align: center;
+        margin: 2rem; }
+      .section .context .server dl dd {
+        text-align: center;
+        font-size: 1.8rem;
+        color: lightgrey; }
+    .section .context .change {
+      clear: both; }
+      .section .context .change h3 {
+        height: 8.5rem;
+        line-height: 8.5rem;
+        margin-left: 1rem;
+        font-size: 2rem; }
+      .section .context .change dl {
+        flex: 1;
+        width: 24.7%;
+        height: 19rem;
+        float: left;
+        border: 0.1rem solid gray; }
+        .section .context .change dl dt {
+          text-align: center;
+          margin: 2rem; }
+        .section .context .change dl dd {
+          text-align: center;
+          font-size: 1.8rem;
+          color: lightgrey; }
+
+/*# sourceMappingURL=style.css.map */
